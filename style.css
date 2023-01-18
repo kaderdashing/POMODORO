@@ -1,0 +1,103 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  background: linear-gradient(to right, #70e1f5, #ffd194);
+  font-family: Lato, sans-serif;
+  padding: clamp(20px, 5vw, 50px) 10px;
+  color: #161616;
+}
+
+.container{
+margin: auto ;
+text-align: center;
+}
+
+.timer-block{
+display: flex;
+flex-direction: row;
+justify-content: center;
+margin-top:50px ;
+margin-bottom: 50px;
+}
+
+.work-time{
+  border: none;
+height:156px ;
+width: 365px;
+background-color: #f1f1f1;
+padding-top: 35px;
+margin-right: 5px;
+border-radius: 5px;
+box-shadow: 0px 5px 5px  rgba(0,0,0,0.2);
+}
+
+.break-time{
+height:156px ;
+width: 365px;
+background-color: #f1f1f1;
+padding-top: 35px;
+border: none;
+margin-left: 5px;
+border-radius: 5px;
+box-shadow: 0px 5px 5px  rgba(0,0,0,0.2);
+}
+
+img{
+height: 37.5px;
+width: 37.5px;
+}
+
+h1{
+ 
+  font-size: 50px;
+  font-weight: 300;
+}
+
+h1 span{
+ 
+  font-size: 50px;
+  font-weight:900;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  text-decoration-thickness: 1px;
+
+}
+.work{
+  font-size: 40px;
+  font-weight: 600;
+}
+.work-timer{
+  font-family: Inconsolata, sans-serif;
+  font-size: 32px;
+}
+.break{
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.break-timer{
+  font-family: Inconsolata, sans-serif;
+  font-size: 32px;
+
+}
+
+button{
+  padding: 15px 20px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 5px 5px  rgba(0,0,0,0.2);
+  margin: 2px 3px 50px;
+  cursor: pointer;
+}
+
+.cycle{
+  font-size: 30px;
+  font-weight: 600;
+}
